@@ -1,0 +1,27 @@
+{
+  "name": "formation",
+  "version": "1.0.0",
+  "main": "readFile.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest --verbose",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "alexis",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "mysql2": "^3.9.7",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.5",
+    "@babel/preset-react": "^7.24.1",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0"
+  }
+}
